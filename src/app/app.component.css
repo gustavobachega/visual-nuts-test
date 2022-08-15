@@ -1,0 +1,25 @@
+.exercise1, .exercise2 {
+    width: 50%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr
+}
+
+p {
+    padding: 10px 0;
+}
+
+.countriesList {
+    padding: 5px 0;
+}
+
+.countriesList:last-child {
+    padding-top: 5px;
+    padding-bottom: 0;
+}
+
+p, h1, li {
+    color: white;
+}
